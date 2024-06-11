@@ -29,7 +29,7 @@ function PracticeArea() {
                             </div>
                             <h3>Family Law</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quisquam, expedita excepturi adipisci</p>
-                            <Link to="/practice-details/family-law">Read More</Link>
+                            <Link to="/practice-details/:practiceName">Read More</Link>
                             <img className="practice-shape-one" src="assets/img/home-one/7.png" alt="Shape" />
                             <img className="practice-shape-two" src="assets/img/home-one/8.png" alt="Shape" />
                         </div>

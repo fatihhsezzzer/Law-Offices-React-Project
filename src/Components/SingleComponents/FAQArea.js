@@ -42,7 +42,11 @@ const criminalLawFaqs = [
     { question: "What is the purpose of a search warrant?", answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit..." },
     // Diğer sorular...
 ];
-
+const deneme = [
+    { question: "What is criminal law?", answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit..." },
+    { question: "What is the purpose of a search warrant?", answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit..." },
+    // Diğer sorular...
+];
 function App() {
     return <FaqSection title="Criminal Law" faqs={criminalLawFaqs} />;
 }
