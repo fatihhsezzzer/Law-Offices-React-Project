@@ -1,9 +1,6 @@
 import './App.css';
 import React from 'react';
-
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
-
-
 
 import HomePage from './Components/Pages/HomePage';
 import ContactPage from './Components/Pages/ContactPage';
@@ -16,12 +13,11 @@ import PracticeDetailPage from './Components/Pages/PracticeDetailPage';
 
 import NotFound from './Components/Pages/NotFound';
 
-
-
 import Loader from './Components/SingleComponents/Loader';
-import Footer from './Components/SingleComponents/Footer'
-import Navbar from './Components/SingleComponents/Navbar'
+import Footer from './Components/SingleComponents/Footer';
+import Navbar from './Components/SingleComponents/Navbar';
 
+import { TranslationsProvider } from './Components/Contexts/LanguageContext';
 
 function Layout() {
   const location = useLocation();
@@ -31,7 +27,6 @@ function Layout() {
   }, [location]);
 
   return (
-
     <>
       <Loader />
       <Navbar />
@@ -43,21 +38,24 @@ function Layout() {
         <Route path="/ilayda-ikizoglu" element={<AttorneyDetailsPage />} />
         <Route path="/faq" element={<FAQPage />} />
         <Route path="/testimonial" element={<TestimonialPage />} />
-        <Route path="/practiceDetail" element={<PracticeDetailPage />} />
+        <Route path="/practice-detail" element={<PracticeDetailPage />} />
         <Route path="/*" element={<NotFound />} />
       </Routes>
       <Footer />
     </>
-
   );
 }
+
 function App() {
   return (
     <Router>
-      <div className="App">
-        <Layout />
-      </div>
+      <TranslationsProvider>
+        <div className="App">
+          <Layout />
+        </div>
+      </TranslationsProvider>
     </Router>
   );
 }
+
 export default App;

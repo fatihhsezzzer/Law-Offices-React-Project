@@ -1,0 +1,28 @@
+{
+  "en": {
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact",
+    "faq": "FAQ",
+    "testimonial": "Testimonial",
+    "getAppointment": "Get Appointment",
+    "banner": {
+      "title": "Attorneys Fight For Your Justice",
+      "description": "Our Squad of Professional Attorneys is devoted to your Progress & to achieve your Goal. Our Law Firm supports our clients for various versatile cases and to get justice.",
+      "consultation": "FREE CONSULTATION"
+    }
+  },
+  "tr": {
+    "home": "Anasayfa",
+    "about": "Hakkımızda",
+    "contact": "İletişim",
+    "faq": "SSS",
+    "testimonial": "Referanslar",
+    "getAppointment": "Randevu Al",
+    "banner": {
+      "title": "Avukatlar Adaletiniz İçin Savaşıyor",
+      "description": "Profesyonel Avukat Ekibimiz, ilerlemenize ve hedeflerinize ulaşmanıza adanmıştır. Hukuk Firmamız, müşterilerimizi çeşitli çok yönlü davalar için destekler ve adaleti sağlar.",
+      "consultation": "ÜCRETSİZ DANIŞMANLIK"
+    }
+  }
+}
